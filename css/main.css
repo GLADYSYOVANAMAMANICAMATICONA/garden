@@ -90,7 +90,11 @@ li{
   border-radius: 25px;
   padding: 2px;
 }
+.sidebar h3{
+  color: black;
+  font-style: italic;
 
+}
 .summary p:first-child{
 	color:blue;
 	padding-left: 25%;
@@ -125,4 +129,8 @@ li{
 .summary p:last-child{
   color: #FFF000;
 
+}
+.sidebar{
+  background-image: url(../img/aside.jpg);
+  border-radius: 35px;
 }
