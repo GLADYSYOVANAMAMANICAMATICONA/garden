@@ -1,0 +1,54 @@
+/* Agrega aquí tus estilos*/
+h1{
+  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;;
+  text-transform: uppercase;
+  display: block;
+  font-size: 50px;
+  color: #f1ebe5;
+  text-shadow: 0 8px 9px #c4b59d, 0px -2px 1px #fff;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-align: center;
+  position: relative;
+  padding: 0px 0px 0px 0px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 20px;
+}
+h1:hover{
+	color: red;
+}
+
+body,html {
+  height: 100%;
+  background-color: black;
+
+} 
+h2{
+	color: red;
+	text-align: center;
+}
+
+h3{
+	color: #FEDC03;
+	text-align: center;
+}
+
+.summary p:first-child{
+	color:blue;
+	padding-left: 25%;
+}
+p{
+	font-family: verdana;
+	color: white;
+	text-align: justify;
+	width: 50%;
+	height: 50%;
+	padding-left: 25%;
+}
+a{
+	color: green;
+	
+	text-align: center;
+}
