@@ -15,6 +15,7 @@ h1{
   left: 50%;
   transform: translate(-50%,-50%);
   border-radius: 20px;
+  margin: 0px;
 }
 h1:hover{
 	color: red;
@@ -23,11 +24,10 @@ h1:hover{
 body,html {
   height: 100%;
   background-color: black;
-
+  text-align: center;
 } 
 h2{
 	color: red;
-	text-align: center;
 }
 
 h3{
@@ -52,3 +52,63 @@ a{
 	
 	text-align: center;
 }
+a, a:link, a:active {
+color : #5EA936;
+font-weight : 700;
+text-decoration: none;
+}
+.sidebar a{
+  border-top: 1px solid #cccccc;
+  border-bottom: 2px solid #666666;
+  border-left: 1px solid #cccccc;
+  border-right: 2px solid #666666;
+  border-radius: 25px;
+  padding: 2px;
+}
+a:hover {
+color : #EED800;
+}
+li {
+list-style : none;
+}
+.page-wrapper {
+width : 750px;
+height : 1600px;
+background-color: transparent;
+position : relative;
+margin : 0 auto;
+padding : 20px;
+}
+footer{
+  height :70px;
+}
+.sidebar {
+width : 400px;
+left : 500px;
+top : 581px;
+}
+.sidebar ul {
+text-align : left;
+}
+.preamble p, .explanation p, .participation p, .benefits p, .requirements p {
+text-align : justify;
+line-height : 1.5em;
+font-style: italic;
+}
+.participation p:nth-child(3) {
+color: blue;
+}
+.summary p:first-child{
+  color: red;
+
+}
+.summary p:last-child{
+  color: #FFF000;
+
+}
+li{
+  margin-top: 15px;
+}
+h3{
+  color:#F3EC0A;
+  }
