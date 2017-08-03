@@ -2,7 +2,6 @@
 /*etiquetas*/
 body,html {
   height: 100%;
-  background-color: black;
   text-align: center;
 }
 
@@ -126,11 +125,16 @@ li{
   color: red;
 
 }
-.summary p:last-child{
-  color: #FFF000;
 
-}
 .sidebar{
   background-image: url(../img/aside.jpg);
   border-radius: 35px;
+}
+
+#zen-summary p:last-child{
+  color: #FFF000;
+}
+
+#css-zen-garden{
+  background-color: black;
 }
